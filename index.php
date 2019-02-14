@@ -16,7 +16,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="home_left_img">
-							<img class="img-fluid" src="img/banner/home-left.png" alt="">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/banner/home-left.png" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -61,7 +61,7 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="about_us_image_box justify-content-center">
-						<img class="img-fluid w-100" src="img/about_img.png" alt="">
+						<img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/about_img.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 			<div class="row text-center">
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map1.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/b_map1.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Best Ps4 Games</a></h3>
 						</div>
@@ -91,7 +91,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map2.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/b_map2.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">World Dart 2019</a></h3>
 						</div>
@@ -99,7 +99,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map3.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/b_map3.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">New XBox Games</a></h3>
 						</div>
@@ -107,7 +107,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/b_map4.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/b_map4.png" alt="">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Amarican Football</a></h3>
 						</div>
@@ -146,7 +146,7 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/recent_up.png" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
@@ -164,7 +164,7 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/recent_up.png" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
@@ -182,7 +182,7 @@
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
 								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
+									<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/recent_up.png" alt="">
 								</div>
 							</div>
 							<div class="col-lg-6">
@@ -220,7 +220,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-6">
 							<div class="single-gallery">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img1.png" alt="">
+								<img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/gallery_img1.png" alt="">
 								<div class="content">
 									<a class="pop-up-image" href="img/gallery_img1.png">
 										<i class="lnr lnr-eye"></i>
@@ -231,7 +231,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-6">
 							<div class="single-gallery">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img2.png" alt="">
+								<img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/gallery_img2.png" alt="">
 								<div class="content">
 									<a class="pop-up-image" href="img/gallery_img2.png">
 										<i class="lnr lnr-eye"></i>
@@ -242,7 +242,7 @@
 						<div class="col-lg-12">
 							<div class="single-gallery">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img3.png" alt="">
+								<img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/gallery_img3.png" alt="">
 								<div class="content">
 									<a class="pop-up-image" href="img/gallery_img3.png">
 										<i class="lnr lnr-eye"></i>
@@ -255,7 +255,7 @@
 				<div class="col-lg-4 hidden-md hidden-sm">
 					<div class="single-gallery">
 						<div class="overlay"></div>
-						<img class="img-fluid w-100" src="img/gallery_img4.png" alt="">
+						<img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/gallery_img4.png" alt="">
 						<div class="content">
 							<a class="pop-up-image" href="img/gallery_img4.png">
 								<i class="lnr lnr-eye"></i>
@@ -274,7 +274,7 @@
 		<div class="container">
 			<div class="testi_slider owl-carousel">
 				<div class="testi_item">
-					<img src="img/quote.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/quote.png" alt="">
 					<h4>Fanny Spencer</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -292,7 +292,7 @@
 					</div>
 				</div>
 				<div class="testi_item">
-					<img src="img/quote.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/quote.png" alt="">
 					<h4>Fanny Spencer</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -310,7 +310,7 @@
 					</div>
 				</div>
 				<div class="testi_item">
-					<img src="img/quote.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/quote.png" alt="">
 					<h4>Fanny Spencer</h4>
 					<ul class="list">
 						<li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -473,7 +473,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img1.png" alt="">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog_img1.png" alt="">
 						</div>
 						<div class="blog_content">
 							<a class="title" href="blog.html">Portable Fashion for women</a>
@@ -490,7 +490,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img2.png" alt="">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog_img2.png" alt="">
 						</div>
 						<div class="blog_content">
 							<a class="title" href="blog.html">Portable Fashion for women</a>
@@ -507,7 +507,7 @@
 				<div class="col-lg-4 hidden-md">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img3.png" alt="">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog_img3.png" alt="">
 						</div>
 						<div class="blog_content">
 							<a class="title" href="blog.html">Portable Fashion for women</a>
