@@ -1,66 +1,14 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-	<!-- Required meta tags -->
-	<?php wp_head(); ?>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Comodo Games</title>
-	
-</head>
-
-<body>
-
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-center">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="price.html">Pricing</a>
-									<li class="nav-item"><a class="nav-link" href="games.html">Games</a>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
-
+<?php 
+	/**
+		* The main template file
+		* It puts together the home page if no home.php file exists.
+		*
+		* @package Comodo
+	*/
+ 	get_header(); 
+?>
+ 
+	<!-- the beginning of the page or post content -->
 	<!--================Home Banner Area =================-->
 	<section class="home_banner_area">
 		<div class="banner_inner">
@@ -606,94 +554,8 @@
 		</div>
 	</section>
 	<!--================ End Newsletter Area ================-->
-
-	<!--================Footer Area =================-->
-	<footer class="footer_area section_gap_top">
-		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>About Farfly</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>For Business</a></li><a href="#">
-								<li><a href="#"></a>Premium Plans
-							</a></li>
-							<li><a href="#"></a>Reviews</a></li>
-							<li><a href="#"></a>How it Works</a></li>
-							<li><a href="#"></a>Farfly Blog</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Company</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Product Tour</a></li><a href="#">
-								<li><a href="#"></a>Pricing
-							</a></li>
-							<li><a href="#"></a>Founding Members</a></li>
-							<li><a href="#"></a>Case Studies</a></li>
-							<li><a href="#"></a>Product Updates</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Support</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Documentation</a></li><a href="#">
-								<li><a href="#"></a>Data Securiry
-							</a></li>
-							<li><a href="#"></a>Site Performance</a></li>
-							<li><a href="#"></a>Action Plan</a></li>
-							<li><a href="#"></a>Resources</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Legal</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Terms and conditions</a></li><a href="#">
-								<li><a href="#"></a>Privacy Policy
-							</a></li>
-							<li><a href="#"></a>Cookie Information</a></li>
-							<li><a href="#"></a>Opt - Out</a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-			<div class="row single-footer-widget">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="copy_right_text">
-						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="social_widget">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
-
+	<?php get_footer(); ?>
 	<?php wp_footer(); ?>
-	
 </body>
 
 </html>
