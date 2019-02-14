@@ -553,9 +553,8 @@
 			</div>
 		</div>
 	</section>
-	<!--================ End Newsletter Area ================-->
+	<!--================ End Newsletter Area ================ -->
 	<?php get_footer(); ?>
-	<?php wp_footer(); ?>
 </body>
 
 </html>
