@@ -33,4 +33,12 @@ function comodo_enqueue_assets() {
   
 }
 add_action( 'wp_enqueue_scripts' , 'comodo_enqueue_assets' );
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu', 'comodo' ),
+) );
+
 ?>

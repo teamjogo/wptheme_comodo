@@ -34,8 +34,21 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
+					<?php
+						wp_nav_menu( array(
+							'theme_location'  => 'primary',
+							'depth'	          => 2, // 1 = no dropdowns, 2 = with dropdowns.
+							'container'       => 'div',
+							'container_class' => 'collapse navbar-collapse offset',
+							'container_id'    => 'navbarSupportedContent',
+							'menu_class'      => 'nav navbar-nav menu_nav justify-content-center',
+							'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+							'walker'          => new WP_Bootstrap_Navwalker(),
+						) );
+					?>
+
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<!-- <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
@@ -62,7 +75,10 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
 						</ul>
-					</div>
+					</div> -->
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
+					</ul>
 				</div>
 			</nav>
 		</div>
